@@ -1,20 +1,36 @@
-# UAV-Based Flood Vulnerability GIS Mapping — Pallikaranai, Chennai
+# Drone-Based Aerial GIS Flood Vulnerability Mapping — Pallikaranai, Chennai
 
-**UAV-based flood vulnerability assessment and GIS mapping for urban flood analysis, with a case study of the Chennai floods of 2023.**
+**Drone-based aerial GIS flood vulnerability mapping for the 2023 Chennai floods in Pallikaranai, Chennai, Tamil Nadu, India.**
 
-This repository presents research and supporting computational artifacts related to drone-based flood assessment at **Pallikaranai, Chennai, India**.
+This repository presents research and supporting computational artifacts associated with UAV-assisted flood assessment and GIS-based vulnerability mapping.
+
+## 📚 Published Research
+
+### Journal Article
+
+**Title:** *Drone-Based Aerial GIS Flood Vulnerability Mapping: A Case Study of the 2023 Chennai Floods in Pallikaranai, Chennai, Tamil Nadu, India*
+
+**Journal:** *Global NEST Journal*
+
+**Volume:** 27  
+**Issue:** 7  
+**Article:** 07189
+
+**DOI:** [10.30955/gnj.07189](https://doi.org/10.30955/gnj.07189)
+
+The published article provides the scholarly reference for the flood vulnerability mapping study represented by this repository.
 
 ## Research Context
 
 Urban flooding requires timely spatial information for vulnerability assessment, emergency response, drainage planning, and environmental monitoring. UAV imagery provides high-resolution local observations that can complement conventional remote sensing and GIS workflows.
 
-The study focuses on integrating **drone-based observation, image analysis, and geospatial interpretation** for flood vulnerability assessment.
+The study integrates **drone-based aerial observation, image analysis, and geospatial interpretation** for flood vulnerability assessment in Pallikaranai, Chennai.
 
 ## Study Area
 
 **Pallikaranai, Chennai, Tamil Nadu, India**
 
-The case study concerns the **Chennai floods of 2023**.
+The case study concerns the **2023 Chennai floods**.
 
 ## Research Workflow
 
@@ -51,21 +67,11 @@ The associated research material references the **DH Q4 UAV platform** with RGB 
 - Visual reporting
 - Environmental monitoring
 
-## Important Research Clarification
+## Research Significance
 
-This repository is maintained as a **flood vulnerability and GIS research project**. Earlier versions of this README incorrectly presented the repository as a separate implementation of the SRT object-detection algorithm and repeated SRT performance metrics.
+The project demonstrates the potential of **UAV + GIS + Computer Vision + Environmental Intelligence** for localized disaster assessment in rapidly urbanizing regions.
 
-The SRT rotational-thumbnail method is a separate research artifact. Its repository is available here:
-
-**SRT:** https://github.com/educationsha/-large-dataset_Sha-Rotation-Thumbnail
-
-The flood repository should not be interpreted as evidence that the reported SRT metrics were independently obtained from a flood-specific experiment unless a corresponding experiment and evaluation protocol are explicitly provided.
-
-## Research Outputs
-
-The repository contains supporting images, visualizations, and research material associated with the flood-mapping case study.
-
-## Potential Applications
+Potential applications include:
 
 - Urban flood vulnerability assessment
 - Emergency response planning
@@ -73,6 +79,22 @@ The repository contains supporting images, visualizations, and research material
 - Environmental monitoring
 - Disaster-management decision support
 - UAV-assisted GIS mapping
+
+## Important Research Clarification
+
+This repository is maintained as a **flood vulnerability and GIS research project**. It is distinct from the SRT rotational-thumbnail object-detection research.
+
+### Related SRT Research
+
+**Sha Rotation Thumbnail (SRT)** is a separate research artifact addressing rotation-aware object-thumbnail extraction after UAV object detection:
+
+https://github.com/educationsha/-large-dataset_Sha-Rotation-Thumbnail
+
+The SRT repository contains its own experimental protocol and published book-chapter reference.
+
+## Research Outputs
+
+The repository contains supporting images, visualizations, and research material associated with the flood-mapping case study.
 
 ## Reproducibility Checklist
 
@@ -89,9 +111,22 @@ For a complete reproducible release, the following should be documented:
 - [ ] Study-area boundary and source data
 - [ ] Final vulnerability-classification methodology
 
-## Research Significance
+## Citation
 
-The project demonstrates the potential of **UAV + Computer Vision + GIS + Environmental Intelligence** for localized disaster assessment in rapidly urbanizing regions.
+If you use this repository or the associated research, please cite the published journal article:
+
+```bibtex
+@article{drone_gis_flood_pallikaranai,
+  title   = {Drone-Based Aerial GIS Flood Vulnerability Mapping: A Case Study of the 2023 Chennai Floods in Pallikaranai, Chennai, Tamil Nadu, India},
+  journal = {Global NEST Journal},
+  volume  = {27},
+  number  = {7},
+  pages   = {07189},
+  doi     = {10.30955/gnj.07189}
+}
+```
+
+**DOI:** https://doi.org/10.30955/gnj.07189
 
 ## Authors / Research Context
 
@@ -102,16 +137,10 @@ The repository's original research material identifies:
 
 The repository is maintained by **Dr. Shahul Hameed C** as part of the associated AI/UAV research portfolio.
 
-## Related Research
-
-### Rotation-Aware UAV Object Detection — SRT
-
-https://github.com/educationsha/-large-dataset_Sha-Rotation-Thumbnail
-
-### Research Profile
-
-https://github.com/educationsha
-
 ## License and Data
 
-No explicit open-source license is currently declared. Dataset redistribution, imagery rights, and third-party GIS materials should be verified before external reuse or publication.
+No explicit open-source license is currently declared. Dataset redistribution, UAV imagery rights, and third-party GIS materials should be verified before external reuse or publication.
+
+## Research Profile
+
+https://github.com/educationsha
